@@ -1,23 +1,27 @@
 #include "main.h"
 
 /**
- * main - write putchar
+ *  * main - to print _putchar
+ *   
+ *      *
+ *       * Return: (0) if successful
  *
- * return - always 0
- *
- */
+ *        */
+
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');                                                                          
-	_putchar('u');                                                                                                                  _putchar('t');
-        _putchar('c');	
-	_putchar('h');                                                                                                          
-	_putchar('a');
-        _putchar('r');
-        _putchar('\n');  
-return (0);	
+		char var[] = "_putchar";
+			int ii;
+				/*length of the array var*/
+				int lenVar = sizeof(var) / sizeof(var[0]);
 
+					for (ii = 0; ii < lenVar - 1; ii++)
+							{
+										_putchar(var[ii]);
+											}
+							_putchar('\n');
+
+								return (0);
 }
 	
 
