@@ -1,4 +1,4 @@
-#iclude "main.h"
+#include "main.h"
 /* First function of writing putchar
  * and adding a new line
  */
