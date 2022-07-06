@@ -3,7 +3,7 @@
 
 
 int _putchar(char c);
-void main(void)                                                                                                                 
+int main(void)                                                                                                                 
 
 #endif
 
