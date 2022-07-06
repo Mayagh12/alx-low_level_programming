@@ -1,9 +1,9 @@
-#include "main.h"
-/* First function of writing putchar
+#include "main.h";
+/*
+ * main - write putchar
  * and adding a new line
  */
-
-int main(void)
+int main(void);
 {
 	_putchar('_');
 	_putchar('p');                                                                          
