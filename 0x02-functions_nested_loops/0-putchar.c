@@ -1,9 +1,12 @@
-#include "main.h";
-/*
+#include "main.h"
+
+/**
  * main - write putchar
- * and adding a new line
+ *
+ * return - always 0
+ *
  */
-int main(void);
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');                                                                          
