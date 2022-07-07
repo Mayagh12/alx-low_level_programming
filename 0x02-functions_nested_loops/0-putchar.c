@@ -1,12 +1,9 @@
 #include "main.h"
 
 /**
- *  * main - to print _putchar
- *   
- *      *
+ *  * main - to print _putchar   
  *       * Return: (0) if successful
- *
- *        */
+ */
 
 int main(void)
 {
@@ -18,7 +15,7 @@ int main(void)
 					for (ii = 0; ii < lenVar - 1; ii++)
 							{
 										_putchar(var[ii]);
-											}
+										}
 							_putchar('\n');
 
 								return (0);
