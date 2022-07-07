@@ -6,7 +6,7 @@
  *    * @var2: second integer
  *     *
  *         * Return: the integer sum of var1 and var2
- *          */
+ */
 
 int add(int var1, int var2)
 {
